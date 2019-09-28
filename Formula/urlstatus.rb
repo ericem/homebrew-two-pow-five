@@ -14,6 +14,7 @@ class Urlstatus < Formula
   depends_on "libevent"
 
   def install
+    mkdir bin
     system "make", "PREFIX=#{prefix}", "install"
   end
 
