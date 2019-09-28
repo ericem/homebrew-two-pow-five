@@ -1,4 +1,4 @@
-class URLStatus < Formula
+class Urlstatus < Formula
   desc "URL Status Checker"
   homepage "https://github.com/ericem/two-pow-five/tree/master/urlstatus"
   url "https://github.com/ericem/two-pow-five/raw/master/urlstatus/urlstatus-0.1.0.tar.gz"
