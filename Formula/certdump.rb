@@ -1,4 +1,4 @@
-class Urlstatus < Formula
+class Certdump < Formula
   desc "Certificate Dumper"
   homepage "https://github.com/ericem/two-pow-five/tree/master/certdump"
   url "https://github.com/ericem/two-pow-five/raw/master/certdump/release/certdump-0.1.0.tar.gz"
