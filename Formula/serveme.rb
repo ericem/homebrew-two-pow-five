@@ -2,12 +2,12 @@ class Serveme < Formula
   desc "Super Simple Static File Server"
   homepage "https://github.com/ericem/two-pow-five/tree/master/serveme"
   url "https://github.com/ericem/two-pow-five/raw/master/serveme/release/serveme-0.1.0.tar.gz"
-  sha256 "3663a6c596114098baf51d7f8701891848fdee11db9010b2ed64a525248c5bbd"
+  sha256 "6173aa68c4410e161ebc9a0f3665f0f25c882caea50113ae586e94a0ff523134"
 
  bottle do
     root_url "https://github.com/ericem/two-pow-five/raw/master/serveme/release"
     cellar :any
-    sha256 "34c18600dae4e43d228be1b3e88195679d1498376ede39e467a2902a3bd1d317 " => :mojave
+    sha256 "af345f2d2e330d3e18461acc57c328c063437c16bf48c6cae00534cd738c6e6b" => :mojave
   end
 
   depends_on "crystal" => :build
