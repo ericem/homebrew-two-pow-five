@@ -1,13 +1,13 @@
 class Healthmon < Formula
   desc "Process Health Monitor"
   homepage "https://github.com/ericem/two-pow-five/tree/master/healthmon"
-  url "https://github.com/ericem/two-pow-five/raw/master/healthmon/release/healthmon-0.1.0.tar.gz"
-  sha256 "cda8c90dce4a291f6afb6fc721dd2ceb6dd937de3b2161c3ba6b623f8ddedd33"
+  url "https://github.com/ericem/two-pow-five/raw/master/healthmon/release/healthmon-0.2.0.tar.gz"
+  sha256 "699912fb7758c3b9290550a96c927cbd3eff3e4d439570500162b3d2cf779c30"
 
  bottle do
     root_url "https://github.com/ericem/two-pow-five/raw/master/healthmon/release"
     cellar :any
-    sha256 "9eea9d60a33a1ac34ece01b680de0a49e1f091f7cb85cf046119779b67d5fca8" => :mojave
+    sha256 "2b4613533066d08c13ae7efa25ca8cfdb7cb4fd44a0bb23da8dcfb662ca6a96b" => :mojave
   end
 
   depends_on "crystal" => :build
